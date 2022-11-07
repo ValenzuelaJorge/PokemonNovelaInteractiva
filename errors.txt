@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 661: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    voz "Llego la hora de la clase de inteligencia artificial"
+                                                              ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sun Nov  6 03:56:30 2022

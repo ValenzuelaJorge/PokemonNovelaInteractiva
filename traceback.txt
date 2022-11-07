@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 404, in script
+    profesor "Ash, ¿Donde esta tu expocision y tu robot? asi no podras participar en la pelea."
+Exception: Sayer 'profesor' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 404, in script
+    profesor "Ash, ¿Donde esta tu expocision y tu robot? asi no podras participar en la pelea."
+  File "D:\Jorge\Programas\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\Jorge\Programas\Renpy\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'profesor' is not defined.
+
+Windows-10-10.0.22000 AMD64
+Ren'Py 8.0.3.22090809
+IA 1.0
+Sat Nov  5 23:48:53 2022
